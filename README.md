@@ -63,3 +63,7 @@ cd backend
 npm install
 npm start
 ```
+
+## Url of project:
+
+https://frontend-4t79v23wl-yuriis-projects-b695266c.vercel.app/
