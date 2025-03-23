@@ -48,4 +48,18 @@
 
 ## Getting Started
 
-[Your existing setup instructions...]
+### To start front-end part you need:
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+### To start backend:
+
+```
+cd backend
+npm install
+npm start
+```
