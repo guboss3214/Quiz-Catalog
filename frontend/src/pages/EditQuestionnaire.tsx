@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import axios from "axios";
+import axios from "../config/axios";
 import toast from "react-hot-toast";
 
 interface Question {
@@ -120,7 +120,7 @@ const EditQuestionnaire = () => {
         headers: { "Content-Type": "application/json" },
       });
       toast.success("Questionnaire updated successfully");
-      navigate("/"); // or wherever you want to redirect
+      navigate("/");
     } catch (error) {
       toast.error("Failed to update questionnaire");
       console.error(error);
